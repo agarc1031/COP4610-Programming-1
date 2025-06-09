@@ -1,0 +1,18 @@
+How to Run the UNIX Shell Program
+
+1. Open the terminal.
+2. Navigate to the project folder: 
+   cd path/to/projectfolder
+3. Compile the program using:
+   make
+4. Run the shell:
+   ./shell
+
+Supported Features:
+- Standard commands: e.g., ls, cat, ps
+- History (!!)
+- Input redirection: sort < input.txt
+- Output redirection: ls > output.txt
+- Piping: ls -l | less
+- Background execution: sleep 5 &
+
